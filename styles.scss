@@ -1,4 +1,9 @@
 /*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;350;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap");
+
+
 iframe {
   max-width: 100%;
   min-height: 200px;
@@ -13,6 +18,8 @@ main#quarto-document-content {
   text-align: justify !important;
   max-width: 54ch;
   font-size: 18.5px !important;
+  font-family: "Source Sans Pro";
+  // font-family: "Inter";
 }
 
 /* Reduce list indentation slightly for narrower text columns */
@@ -61,17 +68,13 @@ $subtitle-fg: #fdfaf6;
 $heading-color: #849972;
 
 
-// Headings (in body content)
-h1, h2, h3 {
-  color: $heading-color;
-  font-weight: 700;
-}
-
 div#index-subtitle {
   color: $heading-color;
-  font-weight: 300 !important;
-  /* font-family: "Source Serif Pro 3"; */
-  font-size: 20px !important;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 0.06rem;
+  text-align: center;
+  font-family: "Source Serif Pro";
 }
 
 .quarto-title-block .quarto-title-author {

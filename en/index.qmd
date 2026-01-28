@@ -6,10 +6,9 @@ editor:
     wrap: 80
 ---
 
-# A Cultural Exchange Program {#index-title .unnumbered}
 
 ::: {#index-subtitle}
-[**To Promote Indigenous Health in the Western Hemisphere**]{.smallcaps}
+Indigenous Health and Social Dynamics in Vulnerable Communities
 :::
 
 *Projeto* (Project) *Dourados*—pronounced *doe-RAH-doose*, meaning

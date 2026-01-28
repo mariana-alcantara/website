@@ -4,10 +4,9 @@ lang: pt
 ---
 
 
-# Um Programa de Intercâmbio Cultural {#index-title .unnumbered}
 
 ::: {#index-subtitle}
-[**Para Promover a Saúde Indígena no Hemisfério Ocidental**]{.smallcaps}
+Saúde Indígena e Dinâmicas Sociais em Contextos de Vulnerabilidade
 :::
 
 O *Projeto* *Dourados* teve início quando pesquisadoras e pesquisadores da América do Sul e da América do Norte se encontraram na Universidade Federal da Grande Dourados (UFGD), em Mato Grosso do Sul, Brasil.
