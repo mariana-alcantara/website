@@ -34,7 +34,7 @@ our two institutions, UFGD and Stanford University.
 ### Our Project
 
 The project builds on public health partnerships and research led by
-Prof. Simone Simionatto, her students, and colleagues at UFSC and
+Prof. Simone Simionatto, her students, and colleagues at UFGD and
 beyond, which have advanced both the science and practice of public
 health in her community: the city of Dourados and the neighboring
 Dourados Indigenous Reserve.
