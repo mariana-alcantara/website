@@ -1,8 +1,12 @@
 project:
   type: website
+  resources:
+    - qr/**
+    - imagens/qrcode_**
+    - contato.vcf
 
 website:
-  title: "Projeto Dourado"
+  title: "Projeto Dourados"
 
 languages:
   pt:
