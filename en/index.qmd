@@ -112,20 +112,41 @@ working with us, or would like more information, please contact us:
 ## Our Team
 
 
-### Founders
+### Founder-Directors
 
-Our two founders, Drs. Izabela Mauricio Rezende and Matthew Adam Turner, first
-met as Pandemic Preparedness Hub Postdoctoral Fellows ...
+The founders of Instituto Dourados are also currently its directors. They began
+working together as the two inaugural postdoctoral fellows
+to participate in the [Pandemic Preparedness Hub at Stanford
+Medicine](https://pandemichub.stanford.edu).
 
+They discovered they shared a
+common interest in Indigenous public health, but with vastly different technical
+approaches. 
+
+Together they decided that public health for
+marginalized communities needs an aggressively community-based,
+multidisciplinary, multilingual approach. 
+
+They founded Instituto Dourados
+to recruit, educate, and initiate a critical mass of researchers and policy
+makers who understand the biological and social complexity of promoting public
+health.
 
 {{< include /bio/IzabelaRezende-en.qmd >}}
 
 {{< include /bio/MatthewTurner-en.qmd >}}
 
 
-### Interns
+### Innovation and Research Interns
 
-Our interns are the lifeblood of...
+Student internships are our primary method for building capacity in Indigenous
+public health for Dourados, Brazil, and beyond. Innovation Interns focus on
+expanding access to our educational public health resources for residents of
+Indigenous Reserves. Research Interns help create and evaluate new methods,
+technologies, and knowledge while learning the latest science and techniques
+from the Directors and [associted faculty
+leaders](#brazilian-faculty-leadership).
+
 
 {{< include /bio/MarianaAlcantara-en.qmd >}}
 
