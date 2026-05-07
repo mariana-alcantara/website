@@ -4,12 +4,19 @@ project:
     - qr/**
     - imagens/qrcode_**
     - contato.vcf
-
 website:
   title: "Instituto Dourados"
-
   favicon: sticker-favicon.jpg
-
+  navbar:
+    left:
+      - text: "Início / Home"
+        href: index.qmd
+      - text: "Pesquisa / Research"
+        href: pt/pesquisa.qmd
+      - text: "Oportunidades"
+        href: pt/oportunidades.qmd
+      - text: "Blog"
+        href: pt/blog/index.qmd
 languages:
   pt:
     name: Português
@@ -18,22 +25,20 @@ languages:
   en:
     name: English
     dir: en
-
 format:
   html:
     toc: true
     number-sections: false
     include-in-header: header.html
-    theme: 
+    theme:
       light:
         - styles.scss
         - theme-light.scss
       dark:
-        - darkly 
+        - darkly
         - styles.scss
         - theme-dark.scss
     fontsize: 1.1em
     linestretch: 1.4
     number-depth: 3
-
 bibliography: dourados.bib

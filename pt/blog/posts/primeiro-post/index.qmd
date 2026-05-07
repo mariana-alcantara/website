@@ -1,0 +1,43 @@
+---
+title: "Minha Primeira Semana no Instituto Dourados: Analisando Dados de COVID da Reserva Indígena de Dourados"
+author: "Mariana Barreto Alcântara"
+date: "2026-04-22"
+lang: pt
+categories: [pesquisa, epidemiologia, saúde pública, R]
+---
+
+## Introdução
+
+Para minha primeira tarefa como Estagiária de Pesquisa Júnior no Instituto Dourados, fui introduzida à epidemiologia social por meio de um conjunto de dados real publicado por Laís, Iza e Simone (Albuquerque, Rezende, ..., Simionatto, 2023). Os dados registram infecções por COVID-19 na Reserva Indígena de Dourados, em Mato Grosso do Sul, Brasil, uma das maiores reservas indígenas do país, onde mais de 14.000 pessoas vivem em uma área relativamente pequena, criando condições únicas tanto para a transmissão de doenças quanto para a resposta de saúde pública.
+
+Antes de começar, eu sabia muito pouco sobre a Reserva. Aprender sobre ela através dos dados, ver os nomes das aldeias, as etnias, as datas de detecção, tornou a experiência imediatamente real e significativa. Esses não eram apenas números; eram registros de pessoas reais navegando por uma pandemia em circunstâncias muito específicas.
+
+## O Que Torna Esses Dados Especiais
+
+O que mais me chamou atenção neste conjunto de dados é o que ele registra. Em vez de apenas características biológicas como altura ou idade, os pesquisadores registraram informações **sociais** como em qual aldeia a pessoa vivia, sua etnia indígena, qual variante da COVID a infectou e a data de detecção.
+
+Isso reflete uma ideia central do Instituto Dourados: a epidemiologia inclui a ciência social. Compreender **quem interage com quem** nos ajuda a entender como as doenças se espalham e como projetar melhores intervenções de saúde pública. Por exemplo, saber que duas pessoas vivem na mesma aldeia nos diz algo sobre a probabilidade de elas terem contato, informação que um modelo puramente biológico ignoraria completamente.
+
+A Reserva Indígena de Dourados abriga dois grupos étnicos principais: os Guarani e os Terena. Esses grupos têm histórias, línguas e padrões de organização social distintos. Registrar a etnia nos dados permite que os pesquisadores investiguem se a disseminação da doença seguiu linhas sociais e comunitárias, uma questão que seria invisível em dados epidemiológicos convencionais.
+
+## O Que Fiz em R
+
+Usando R, executei código para visualizar quantas infecções por COVID foram registradas ao longo do tempo na Reserva. Os dados estavam armazenados em um arquivo Excel do repositório GitHub.
+
+Meu primeiro passo foi carregar os dados e inspecionar sua estrutura.Cada linha representava uma infecção individual, com colunas para aldeia, etnia, variante e data. Depois de explorar o conjunto de dados, criei um gráfico de linha mostrando o número de novos casos ao longo do tempo, o que tornou os padrões de ondas das variantes imediatamente visíveis.
+
+Ver os picos correspondendo às ondas conhecidas de variantes foi um momento revelador. Esses padrões globais estavam presentes também dentro da Reserva, mas com sua própria textura local moldada pelas condições sociais específicas da comunidade.
+
+Foi também minha primeira experiência usando R em um contexto de pesquisa real, em vez de um exercício de aula. A diferença é enorme: quando os dados representam pessoas reais, cada decisão sobre como limpá-los, visualizá-los ou interpretá-los parece ter peso.
+
+## O Que Aprendi
+
+Esta foi minha primeira vez trabalhando com dados epidemiológicos reais em R. Me mostrou que os dados não são apenas números, eles refletem a vida real das pessoas e seus contextos sociais. Um registro de infecção em uma aldeia específica carrega consigo toda uma história de proximidade, interação e vulnerabilidade compartilhada.
+
+Também aprendi que a qualidade dos dados importa profundamente. O fato de que Laís, Iza, Simone e seus colegas se esforçaram para registrar informações sociais, não apenas clínicas, é o que torna possível fazer perguntas sobre como a estrutura social moldou a disseminação da doença. Boa ciência começa com boa coleta de dados, e boa coleta de dados começa com as perguntas certas.
+
+Estou animada para desenvolver essas habilidades nas próximas semanas, aprofundando minha compreensão tanto das ferramentas técnicas quanto das questões de saúde pública que elas nos ajudam a explorar. Há muito mais a aprender sobre a história da Reserva e sobre como comunicar descobertas científicas para públicos diversos. Cada semana no Instituto Dourados parece um passo em direção a esse objetivo.
+
+## Referência
+
+Albuquerque, L., Rezende, I., ..., Simionatto, S. (2023). *Frontiers in Public Health.*

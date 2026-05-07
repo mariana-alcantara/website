@@ -1,0 +1,11 @@
+---
+title: Blog
+lang: en
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Welcome to the Instituto Dourados blog, where we communicate our latest activities, our plans for the future, and helpful hints for developing the technical skills required for Instituto work. Here you will find updates on our public health research on Indigenous communities, reflections from the field, and resources to support the growing community of researchers and practitioners engaged in this mission.

@@ -1,0 +1,11 @@
+---
+title: Blog
+lang: pt
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Bem-vindo ao blog do Instituto Dourados, onde comunicamos nossas atividades mais recentes, nossos planos para o futuro e dicas para desenvolver as habilidades técnicas necessárias para o trabalho do Instituto. Aqui você encontrará atualizações sobre nossas pesquisas em saúde pública indígena, reflexões do campo e recursos para apoiar a crescente comunidade de pesquisadores e praticantes engajados nessa missão.--- 

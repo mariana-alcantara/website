@@ -1,0 +1,43 @@
+---
+title: "My First Week at Instituto Dourados: Analyzing COVID Data from the Reserva Indígena de Dourados"
+author: "Mariana Barreto Alcântara"
+date: "2026-04-22"
+lang: en
+categories: [research, epidemiology, public health, R]
+---
+
+## Introduction
+
+For my first assignment as a Junior Research Intern at Instituto Dourados, I was introduced to social epidemiology through a real dataset published by Laís, Iza, and Simone (Albuquerque, Rezende, ..., Simionatto, 2023). The data records COVID-19 infections in the Reserva Indígena de Dourados, in Mato Grosso do Sul, Brazil, one of the largest Indigenous reserves in the country, where more than 14,000 people live in a relatively small area, creating unique conditions for both disease transmission and public health response.
+
+Before I began, I knew very little about the Reserve. Learning about it through the data, seeing the names of the aldeias, the ethnicities, the detection dates, made the experience immediately real and meaningful. These were not just numbers; they were records of real people navigating a pandemic under very specific circumstances.
+
+## What Makes This Data Special
+
+What struck me most about this dataset is what it records. Instead of just biological characteristics like height or age, the researchers recorded **social** information; which aldeia the person lived in, their Indigenous ethnicity, which COVID variant infected them, and the date of detection.
+
+This reflects a core idea at Instituto Dourados: epidemiology includes social science. Understanding **who interacts with whom** helps us understand how disease spreads and how to design better public health interventions. For example, knowing that two people live in the same aldeia tells us something about the likelihood of their having contact, information that a purely biological model would ignore entirely.
+
+The Reserva Indígena de Dourados is home to two main ethnic groups: the Guarani and the Terena. These groups have distinct histories, languages, and patterns of social organization. Recording ethnicity in the data allows researchers to investigate whether disease spread followed social and community lines, a question that would be invisible in conventional epidemiological data.
+
+## What I Did in R
+
+Using R, I ran code to visualize how many COVID infections were recorded over time in the Reserve. The data was stored in an Excel file from the GitHub repository.
+
+My first step was to load the data and inspect its structure. Each row represented an individual infection, with columns for aldeia, ethnicity, variant, and date. After exploring the dataset, I created a line graph showing the number of new cases over time, which made the wave patterns of the variants immediately visible.
+
+Seeing the peaks corresponding to the known variant waves was a revealing moment. These global patterns were present within the Reserve as well, but with their own local texture shaped by the community's specific social conditions.
+
+It was also my first experience using R in a real research context, rather than a classroom exercise. The difference is enormous: when the data represents real people, every decision about how to clean, visualize, or interpret it feels like it carries weight.
+
+## What I Learned
+
+This was my first time working with real epidemiological data in R. It showed me that data is not just numbers, it reflects real people's lives and their social contexts. A record of infection in a specific aldeia carries with it an entire history of proximity, interaction, and shared vulnerability.
+
+I also learned that data quality matters deeply. The fact that Laís, Iza, Simone, and their colleagues took care to record social information, not just clinical, is what makes it possible to ask questions about how social structure shaped disease spread. Good science begins with good data collection, and good data collection begins with the right questions.
+
+I am excited to build on these skills in the coming weeks, deepening my understanding of both the technical tools and the public health questions they help us explore. There is much more to learn about the history of the Reserve and about how to communicate scientific findings to diverse audiences. Each week at Instituto Dourados feels like a step toward that goal.
+
+## Reference
+
+Albuquerque, L., Rezende, I., ..., Simionatto, S. (2023). *Frontiers in Public Health.*
